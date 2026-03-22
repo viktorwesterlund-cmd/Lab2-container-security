@@ -72,11 +72,11 @@ A compliant (hardened) pod → allowed
 📸 Screenshots
 
 The following screenshots are included in the repository:
+<img width="1769" height="212" alt="scan output" src="https://github.com/user-attachments/assets/3aa4488e-1a81-4974-a6ca-4a1631f68821" />
+<img width="1764" height="194" alt="trivy output" src="https://github.com/user-attachments/assets/b991d298-8465-4a97-9520-b59a895fe5b8" />
 
-screenshots/trivy-before.png – vulnerabilities before hardening
-screenshots/trivy-after.png – vulnerabilities after hardening
-screenshots/gatekeeper-deny.png – denied deployment
-screenshots/gatekeeper-pass.png – successful deployment
+<img width="1255" height="712" alt="bad pod" src="https://github.com/user-attachments/assets/956c5d6c-83b3-451b-9469-38fafbc83a28" />
+<img width="1038" height="281" alt="hardenpod" src="https://github.com/user-attachments/assets/639ca511-0453-4639-b708-17a5e4109f44" />
 Reflection
 
 I learned that container security is largely about reducing the attack surface, for example by using smaller and updated base images and avoiding running applications as root. I also saw how outdated dependencies quickly introduce vulnerabilities, and how tools like Trivy make it easy to detect them.
