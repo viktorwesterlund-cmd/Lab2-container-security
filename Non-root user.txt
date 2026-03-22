@@ -1,0 +1,1 @@
+RUN groupadd -r appgroup && useradd -r -g appgroup appuser
